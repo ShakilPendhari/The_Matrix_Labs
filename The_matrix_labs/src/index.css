@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;500;600&family=Work+Sans:ital,wght@0,600;0,800;0,900;1,800;1,900&display=swap');
+*,html,body{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  color:white;
+  user-select: none;
+}
+::-webkit-scrollbar{
+   width: 0rem;
+}
+:root{
+  --redishColor:#F30050;
+  --textColor: #F7F9F9
+
+}
+input{
+  background-color: transparent;
+  height: 100%;
+  width: 90%;
+  margin-left: 1rem;
+  border:0px solid;
+  color: var(--textColor);
+}
+input:focus{
+  border: 0px solid;
+  outline: none;
+}
+::placeholder{
+  color:white;
+  font-size: 1.1rem;
+}

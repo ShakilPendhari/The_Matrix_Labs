@@ -1,0 +1,32 @@
+.gridSection {
+    /* border: 2px solid red; */
+    height: 700px;
+    margin: 1rem;
+    margin-top: 2rem;
+    margin-right: 2rem;
+    margin-left: 20rem;
+    font-family: Poppins;
+    position: relative;
+}
+
+.gridSection>h2 {
+    width: 254px;
+    height: 28px;
+    top: 132px;
+    left: 328px;
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 1.7rem;
+}
+.card{
+    height:90%;
+    width: 95%;
+    /* border:1px solid red; */
+    position: absolute;
+    bottom: 0;
+    left: 1.7rem;
+}
